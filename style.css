@@ -1,0 +1,4 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,Arial,Helvetica,sans-serif;background:#0b1220;color:#e6f0ff}
+header{position:sticky;top:0;padding:12px 16px;background:#0e172a;border-bottom:1px solid rgba(255,255,255,.1)}
+main{padding:16px;max-width:900px;margin:0 auto}
+pre{white-space:pre-wrap;background:#0e172a;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:8px}
