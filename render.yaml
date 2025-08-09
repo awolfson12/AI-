@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: living-self-minimal
+    env: node
+    plan: free
+    buildCommand: "npm ci --omit=dev --no-audit --no-fund"
+    startCommand: "node server.js"
+    healthCheckPath: /health
+    autoDeploy: true
